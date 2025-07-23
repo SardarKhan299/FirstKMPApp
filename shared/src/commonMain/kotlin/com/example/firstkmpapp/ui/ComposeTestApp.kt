@@ -5,6 +5,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Button
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextField
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -22,7 +23,7 @@ import kotlinx.datetime.toLocalDateTime
 @Composable
 fun ComposeTestApp() {
     MaterialTheme {
-
+        var location by remember { mutableStateOf("Pakistan/Islamabad") }
         var timeAtLocation by remember { mutableStateOf("No location selected") }
         Column(
             modifier = Modifier.padding(20.dp)
@@ -51,9 +52,13 @@ fun ComposeTestApp() {
             )
 
             Text(timeAtLocation)
-
+            TextField(
+                value = location,
+                onValueChange = { location = it },
+                label = { Text("Enter Location") }
+            )
             Button(
-                onClick = { timeAtLocation  = todaysDate() }
+                onClick = { timeAtLocation  = "13:90" }
             ){
                 Text("Click me to reveal the Time. ")
             }
