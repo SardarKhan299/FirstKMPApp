@@ -1,0 +1,158 @@
+# Kotlin Multiplatform
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/.idea/misc.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Android
+*.apk
+*.aab
+*.ap_
+*.dex
+bin/
+gen/
+out/
+.gradle/
+build/
+local.properties
+proguard/
+*.log
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+out/
+
+# Eclipse
+.classpath
+.project
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# iOS
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+**/xcshareddata/WorkspaceSettings.xcsettings
+.build/
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+timeline.xctimeline
+playground.xcworkspace
+.build/
+
+# Swift Package Manager
+.build/
+Packages/
+Package.pins
+Package.resolved
+*.xcodeproj
+.swiftpm
+
+# CocoaPods
+Pods/
+*.xcworkspace
+
+# Carthage
+Carthage/Build/
+
+# Accio dependency management
+Dependencies/
+.accio/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Code Injection
+iOSInjectionProject/
+
+# Kotlin/Native
+*.kexe
+*.klib
+
+# KMM
+shared/build/
+*.framework/
+
+# Gradle Wrapper
+!gradle/wrapper/gradle-wrapper.jar
+
+# Signing files
+*.jks
+*.keystore
+*.p8
+*.p12
+*.mobileprovision
+
+# Certificates 
+*.pem
+*.crt
+*.cer
+*.der
+
+# Temporary files
+*.swp
+*.tmp
+*~
+
+# Log files
+*.log
+
+# Node.js (if using for web or tooling)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
